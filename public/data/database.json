@@ -1,0 +1,28 @@
+{
+  "users": {
+    "eghnkrblt@gmail.com": {
+      "username": "eghnkrblt",
+      "email": "eghnkrblt@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "cart": []
+    }
+  },
+  "adminUsers": {
+    "admin@example.com": {
+      "username": "Admin User",
+      "email": "admin@admin.com",
+      "password": "123456",
+      "role": "admin"
+    }
+  },
+  "adminOrders": [],
+  "storeConfig": {
+    "storeName": "Ege",
+    "primaryColor": "#FF6B00",
+    "secondaryColor": "#0066CC",
+    "faviconPath": "/favicon.ico",
+    "welcomeText": "Welcome to Our Store",
+    "welcomeTextColor": "#ff6b00"
+  }
+}

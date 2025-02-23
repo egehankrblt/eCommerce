@@ -1,0 +1,1107 @@
+{
+  "products": {
+    "category": [
+      {
+        "id": "laptops",
+        "name": "Laptops",
+        "image": "https://picsum.photos/id/180/800/800",
+        "subcategories": [
+          {
+            "id": "gaming-laptops",
+            "name": "Gaming Laptops",
+            "categoryId": "laptops",
+            "products": [
+              {
+                "id": "gl001",
+                "name": "EGE Titan Pro X17",
+                "brand": "EGE",
+                "price": 2499.99,
+                "description": "17.3\" Gaming Laptop with RTX 4080, Intel i9, 32GB RAM",
+                "sizes": ["17.3\""],
+                "colors": ["Black","Silver"],
+                "category": "Laptops",
+                "subcategory": "Gaming Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i9-13900H",
+                  "GPU": "NVIDIA RTX 4080 16GB",
+                  "RAM": "32GB DDR5",
+                  "Storage": "2TB NVMe SSD",
+                  "Display": "17.3\" 240Hz QHD"
+                },
+                "images": [
+                  "https://picsum.photos/id/1/800/800",
+                  "https://picsum.photos/id/2/800/800"
+                ]
+              },
+              {
+                "id": "gl002",
+                "name": "EGE Stealth 15",
+                "brand": "EGE",
+                "price": 1899.99,
+                "description": "15.6\" Gaming Laptop with RTX 4070, AMD Ryzen 9",
+                "sizes": ["15.6\""],
+                "colors": ["Black","White"],
+                "category": "Laptops",
+                "subcategory": "Gaming Laptops",
+                "specifications": {
+                  "CPU": "AMD Ryzen 9 7900X",
+                  "GPU": "NVIDIA RTX 4070 8GB",
+                  "RAM": "32GB DDR5",
+                  "Storage": "1TB NVMe SSD",
+                  "Display": "15.6\" 165Hz FHD"
+                },
+                "images": [
+                  "https://picsum.photos/id/3/800/800",
+                  "https://picsum.photos/id/4/800/800"
+                ]
+              },
+              {
+                "id": "gl003",
+                "name": "EGE Shadow X13",
+                "brand": "EGE",
+                "price": 1599.99,
+                "description": "13.3\" Gaming Laptop with RTX 4060, Intel i7, 16GB RAM",
+                "sizes": ["13.3\""],
+                "colors": ["Gray","Black"],
+                "category": "Laptops",
+                "subcategory": "Gaming Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i7-13700H",
+                  "GPU": "NVIDIA RTX 4060 8GB",
+                  "RAM": "16GB DDR5",
+                  "Storage": "512GB NVMe SSD",
+                  "Display": "13.3\" 144Hz FHD"
+                },
+                "images": [
+                  "https://picsum.photos/id/5/800/800",
+                  "https://picsum.photos/id/6/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "business-laptops",
+            "name": "Business Laptops",
+            "categoryId": "laptops",
+            "products": [
+              {
+                "id": "bl001",
+                "name": "EGE ThinkPro X1",
+                "brand": "EGE",
+                "price": 1799.99,
+                "description": "14\" Business Laptop with Intel vPro, 32GB RAM",
+                "sizes": ["14\""],
+                "colors": ["Black","Silver"],
+                "category": "Laptops",
+                "subcategory": "Business Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i7-1360P",
+                  "GPU": "Intel Iris Xe",
+                  "RAM": "32GB DDR5",
+                  "Storage": "1TB NVMe SSD",
+                  "Display": "14\" 2.8K OLED"
+                },
+                "images": [
+                  "https://picsum.photos/id/11/800/800",
+                  "https://picsum.photos/id/12/800/800"
+                ]
+              },
+              {
+                "id": "bl002",
+                "name": "EGE ExecutiveBook 14",
+                "brand": "EGE",
+                "price": 1899.99,
+                "description": "14\" Executive Laptop with Intel i7, 32GB RAM",
+                "sizes": ["14\""],
+                "colors": ["Black","Silver"],
+                "category": "Laptops",
+                "subcategory": "Business Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i7-1360P",
+                  "GPU": "Intel Iris Xe",
+                  "RAM": "32GB DDR5",
+                  "Storage": "1TB NVMe SSD",
+                  "Display": "14\" IPS"
+                },
+                "images": [
+                  "https://picsum.photos/id/13/800/800",
+                  "https://picsum.photos/id/14/800/800"
+                ]
+              },
+              {
+                "id": "bl003",
+                "name": "EGE UltraBiz 15",
+                "brand": "EGE",
+                "price": 1699.99,
+                "description": "15.6\" Business Laptop with Intel i7, 16GB RAM",
+                "sizes": ["15.6\""],
+                "colors": ["Silver"],
+                "category": "Laptops",
+                "subcategory": "Business Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i7-1365U",
+                  "GPU": "Intel Iris Xe",
+                  "RAM": "16GB DDR4",
+                  "Storage": "512GB NVMe SSD",
+                  "Display": "15.6\" FHD"
+                },
+                "images": [
+                  "https://picsum.photos/id/15/800/800",
+                  "https://picsum.photos/id/16/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "student-laptops",
+            "name": "Student Laptops",
+            "categoryId": "laptops",
+            "products": [
+              {
+                "id": "sl001",
+                "name": "EGE StudyMate 14",
+                "brand": "EGE",
+                "price": 999.99,
+                "description": "14\" Student Laptop with Intel i5, 8GB RAM",
+                "sizes": ["14\""],
+                "colors": ["Silver"],
+                "category": "Laptops",
+                "subcategory": "Student Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i5-1155G7",
+                  "GPU": "Intel Iris Xe",
+                  "RAM": "8GB DDR4",
+                  "Storage": "256GB SSD",
+                  "Display": "14\" FHD"
+                },
+                "images": [
+                  "https://picsum.photos/id/21/800/800",
+                  "https://picsum.photos/id/22/800/800"
+                ]
+              },
+              {
+                "id": "sl002",
+                "name": "EGE CampusBook 15",
+                "brand": "EGE",
+                "price": 1099.99,
+                "description": "15.6\" Student Laptop with Intel i7, 16GB RAM",
+                "sizes": ["15.6\""],
+                "colors": ["Black"],
+                "category": "Laptops",
+                "subcategory": "Student Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i7-1165G7",
+                  "GPU": "Intel Iris Xe",
+                  "RAM": "16GB DDR4",
+                  "Storage": "512GB SSD",
+                  "Display": "15.6\" FHD"
+                },
+                "images": [
+                  "https://picsum.photos/id/23/800/800",
+                  "https://picsum.photos/id/24/800/800"
+                ]
+              },
+              {
+                "id": "sl003",
+                "name": "EGE Scholar 13",
+                "brand": "EGE",
+                "price": 899.99,
+                "description": "13.3\" Portable Student Laptop with Intel i3, 8GB RAM",
+                "sizes": ["13.3\""],
+                "colors": ["Silver","Blue"],
+                "category": "Laptops",
+                "subcategory": "Student Laptops",
+                "specifications": {
+                  "CPU": "Intel Core i3-1125G4",
+                  "GPU": "Intel UHD Graphics",
+                  "RAM": "8GB DDR4",
+                  "Storage": "256GB SSD",
+                  "Display": "13.3\" HD"
+                },
+                "images": [
+                  "https://picsum.photos/id/25/800/800",
+                  "https://picsum.photos/id/26/800/800"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "monitors",
+        "name": "Monitors",
+        "image": "https://picsum.photos/id/181/800/800",
+        "subcategories": [
+          {
+            "id": "gaming-monitors",
+            "name": "Gaming Monitors",
+            "categoryId": "monitors",
+            "products": [
+              {
+                "id": "gm001",
+                "name": "EGE Raptor 27",
+                "brand": "EGE",
+                "price": 699.99,
+                "description": "27\" 240Hz Gaming Monitor with G-SYNC",
+                "sizes": ["27\""],
+                "colors": ["Black"],
+                "category": "Monitors",
+                "subcategory": "Gaming Monitors",
+                "specifications": {
+                  "Panel Type": "IPS",
+                  "Resolution": "2560x1440",
+                  "Refresh Rate": "240Hz",
+                  "Response Time": "1ms",
+                  "HDR": "HDR400"
+                },
+                "images": [
+                  "https://picsum.photos/id/51/800/800",
+                  "https://picsum.photos/id/52/800/800"
+                ]
+              },
+              {
+                "id": "gm002",
+                "name": "EGE HawkEye 32",
+                "brand": "EGE",
+                "price": 799.99,
+                "description": "32\" 165Hz Gaming Monitor with Adaptive Sync",
+                "sizes": ["32\""],
+                "colors": ["Black"],
+                "category": "Monitors",
+                "subcategory": "Gaming Monitors",
+                "specifications": {
+                  "Panel Type": "VA",
+                  "Resolution": "2560x1440",
+                  "Refresh Rate": "165Hz",
+                  "Response Time": "1ms",
+                  "HDR": "HDR400"
+                },
+                "images": [
+                  "https://picsum.photos/id/53/800/800",
+                  "https://picsum.photos/id/54/800/800"
+                ]
+              },
+              {
+                "id": "gm003",
+                "name": "EGE TurboVision 24",
+                "brand": "EGE",
+                "price": 599.99,
+                "description": "24\" 240Hz Gaming Monitor, 1080p",
+                "sizes": ["24\""],
+                "colors": ["Black","Gray"],
+                "category": "Monitors",
+                "subcategory": "Gaming Monitors",
+                "specifications": {
+                  "Panel Type": "TN",
+                  "Resolution": "1920x1080",
+                  "Refresh Rate": "240Hz",
+                  "Response Time": "0.5ms",
+                  "HDR": "None"
+                },
+                "images": [
+                  "https://picsum.photos/id/55/800/800",
+                  "https://picsum.photos/id/56/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "business-monitors",
+            "name": "Business Monitors",
+            "categoryId": "monitors",
+            "products": [
+              {
+                "id": "bm001",
+                "name": "EGE OfficeView 24",
+                "brand": "EGE",
+                "price": 299.99,
+                "description": "24\" Business Monitor with IPS Panel",
+                "sizes": ["24\""],
+                "colors": ["Black"],
+                "category": "Monitors",
+                "subcategory": "Business Monitors",
+                "specifications": {
+                  "Panel Type": "IPS",
+                  "Resolution": "1920x1080",
+                  "Refresh Rate": "60Hz",
+                  "Response Time": "5ms",
+                  "HDR": "None"
+                },
+                "images": [
+                  "https://picsum.photos/id/61/800/800",
+                  "https://picsum.photos/id/62/800/800"
+                ]
+              },
+              {
+                "id": "bm002",
+                "name": "EGE ClarityPro 27",
+                "brand": "EGE",
+                "price": 399.99,
+                "description": "27\" QHD Business Monitor for Office Work",
+                "sizes": ["27\""],
+                "colors": ["Silver"],
+                "category": "Monitors",
+                "subcategory": "Business Monitors",
+                "specifications": {
+                  "Panel Type": "IPS",
+                  "Resolution": "2560x1440",
+                  "Refresh Rate": "75Hz",
+                  "Response Time": "4ms",
+                  "HDR": "None"
+                },
+                "images": [
+                  "https://picsum.photos/id/63/800/800",
+                  "https://picsum.photos/id/64/800/800"
+                ]
+              },
+              {
+                "id": "bm003",
+                "name": "EGE WorkStation 32",
+                "brand": "EGE",
+                "price": 499.99,
+                "description": "32\" 4K Business Monitor with USB-C Dock",
+                "sizes": ["32\""],
+                "colors": ["Black"],
+                "category": "Monitors",
+                "subcategory": "Business Monitors",
+                "specifications": {
+                  "Panel Type": "VA",
+                  "Resolution": "3840x2160",
+                  "Refresh Rate": "60Hz",
+                  "Response Time": "4ms",
+                  "HDR": "None"
+                },
+                "images": [
+                  "https://picsum.photos/id/65/800/800",
+                  "https://picsum.photos/id/66/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "design-monitors",
+            "name": "Graphic Design Monitors",
+            "categoryId": "monitors",
+            "products": [
+              {
+                "id": "dm001",
+                "name": "EGE ColorMaster 27",
+                "brand": "EGE",
+                "price": 549.99,
+                "description": "27\" Monitor with 100% sRGB, Color Accuracy",
+                "sizes": ["27\""],
+                "colors": ["Black"],
+                "category": "Monitors",
+                "subcategory": "Graphic Design Monitors",
+                "specifications": {
+                  "Panel Type": "IPS",
+                  "Resolution": "2560x1440",
+                  "Refresh Rate": "75Hz",
+                  "Response Time": "5ms",
+                  "Color Gamut": "100% sRGB"
+                },
+                "images": [
+                  "https://picsum.photos/id/71/800/800",
+                  "https://picsum.photos/id/72/800/800"
+                ]
+              },
+              {
+                "id": "dm002",
+                "name": "EGE ProCreator 32",
+                "brand": "EGE",
+                "price": 799.99,
+                "description": "32\" 4K Monitor for Creators, 99% Adobe RGB",
+                "sizes": ["32\""],
+                "colors": ["Black"],
+                "category": "Monitors",
+                "subcategory": "Graphic Design Monitors",
+                "specifications": {
+                  "Panel Type": "IPS",
+                  "Resolution": "3840x2160",
+                  "Refresh Rate": "60Hz",
+                  "Color Gamut": "99% Adobe RGB"
+                },
+                "images": [
+                  "https://picsum.photos/id/73/800/800",
+                  "https://picsum.photos/id/74/800/800"
+                ]
+              },
+              {
+                "id": "dm003",
+                "name": "EGE StudioScreen 24",
+                "brand": "EGE",
+                "price": 399.99,
+                "description": "24\" Color-Accurate Monitor for Photo Editing",
+                "sizes": ["24\""],
+                "colors": ["Silver"],
+                "category": "Monitors",
+                "subcategory": "Graphic Design Monitors",
+                "specifications": {
+                  "Panel Type": "IPS",
+                  "Resolution": "1920x1200",
+                  "Refresh Rate": "75Hz",
+                  "Color Gamut": "100% sRGB"
+                },
+                "images": [
+                  "https://picsum.photos/id/75/800/800",
+                  "https://picsum.photos/id/76/800/800"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "smartphones",
+        "name": "Smartphones",
+        "image": "https://picsum.photos/id/182/800/800",
+        "subcategories": [
+          {
+            "id": "android-phones",
+            "name": "Android Phones",
+            "categoryId": "smartphones",
+            "products": [
+              {
+                "id": "sp001",
+                "name": "EGE Galaxy Z Ultra",
+                "brand": "EGE",
+                "price": 1299.99,
+                "description": "6.8\" Foldable Smartphone with Snapdragon 8 Gen 2, 12GB RAM",
+                "sizes": ["6.8\""],
+                "colors": ["Black","Blue"],
+                "category": "Smartphones",
+                "subcategory": "Android Phones",
+                "specifications": {
+                  "CPU": "Snapdragon 8 Gen 2",
+                  "RAM": "12GB",
+                  "Storage": "256GB",
+                  "Display": "6.8\" Foldable AMOLED 120Hz"
+                },
+                "images": [
+                  "https://picsum.photos/id/101/800/800",
+                  "https://picsum.photos/id/102/800/800"
+                ]
+              },
+              {
+                "id": "sp002",
+                "name": "EGE Prime S21",
+                "brand": "EGE",
+                "price": 1099.99,
+                "description": "6.5\" Flagship Android Phone, 8GB RAM",
+                "sizes": ["6.5\""],
+                "colors": ["Black","Silver"],
+                "category": "Smartphones",
+                "subcategory": "Android Phones",
+                "specifications": {
+                  "CPU": "Snapdragon 8 Gen 1",
+                  "RAM": "8GB",
+                  "Storage": "128GB",
+                  "Display": "6.5\" AMOLED 120Hz"
+                },
+                "images": [
+                  "https://picsum.photos/id/103/800/800",
+                  "https://picsum.photos/id/104/800/800"
+                ]
+              },
+              {
+                "id": "sp003",
+                "name": "EGE Nova X12",
+                "brand": "EGE",
+                "price": 999.99,
+                "description": "6.4\" High-Performance Android, 12GB RAM",
+                "sizes": ["6.4\""],
+                "colors": ["Blue"],
+                "category": "Smartphones",
+                "subcategory": "Android Phones",
+                "specifications": {
+                  "CPU": "Snapdragon 8 Gen 1",
+                  "RAM": "12GB",
+                  "Storage": "256GB",
+                  "Display": "6.4\" AMOLED 90Hz"
+                },
+                "images": [
+                  "https://picsum.photos/id/105/800/800",
+                  "https://picsum.photos/id/106/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ios-phones",
+            "name": "iOS Phones",
+            "categoryId": "smartphones",
+            "products": [
+              {
+                "id": "ip001",
+                "name": "EGE iCore X",
+                "brand": "EGE",
+                "price": 1299.99,
+                "description": "6.7\" iOS-based Phone, A16 Chip, 6GB RAM",
+                "sizes": ["6.7\""],
+                "colors": ["Black","White"],
+                "category": "Smartphones",
+                "subcategory": "iOS Phones",
+                "specifications": {
+                  "CPU": "EGE A16",
+                  "RAM": "6GB",
+                  "Storage": "256GB",
+                  "Display": "6.7\" Retina OLED"
+                },
+                "images": [
+                  "https://picsum.photos/id/111/800/800",
+                  "https://picsum.photos/id/112/800/800"
+                ]
+              },
+              {
+                "id": "ip002",
+                "name": "EGE iCore Mini",
+                "brand": "EGE",
+                "price": 999.99,
+                "description": "5.8\" Compact iOS Phone, A15 Chip, 4GB RAM",
+                "sizes": ["5.8\""],
+                "colors": ["Red","White"],
+                "category": "Smartphones",
+                "subcategory": "iOS Phones",
+                "specifications": {
+                  "CPU": "EGE A15",
+                  "RAM": "4GB",
+                  "Storage": "128GB",
+                  "Display": "5.8\" Retina"
+                },
+                "images": [
+                  "https://picsum.photos/id/113/800/800",
+                  "https://picsum.photos/id/114/800/800"
+                ]
+              },
+              {
+                "id": "ip003",
+                "name": "EGE iCore Pro",
+                "brand": "EGE",
+                "price": 1399.99,
+                "description": "6.5\" iOS Phone, A16 Chip, 8GB RAM",
+                "sizes": ["6.5\""],
+                "colors": ["Black","Gold"],
+                "category": "Smartphones",
+                "subcategory": "iOS Phones",
+                "specifications": {
+                  "CPU": "EGE A16",
+                  "RAM": "8GB",
+                  "Storage": "256GB",
+                  "Display": "6.5\" Retina XDR"
+                },
+                "images": [
+                  "https://picsum.photos/id/115/800/800",
+                  "https://picsum.photos/id/116/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gaming-phones",
+            "name": "Gaming Phones",
+            "categoryId": "smartphones",
+            "products": [
+              {
+                "id": "gp001",
+                "name": "EGE TurboGamer X",
+                "brand": "EGE",
+                "price": 1299.99,
+                "description": "6.7\" Gaming Phone, 16GB RAM, Liquid Cooling",
+                "sizes": ["6.7\""],
+                "colors": ["Black","Red"],
+                "category": "Smartphones",
+                "subcategory": "Gaming Phones",
+                "specifications": {
+                  "CPU": "Snapdragon 8+ Gen 1",
+                  "RAM": "16GB",
+                  "Storage": "512GB",
+                  "Display": "6.7\" AMOLED 144Hz"
+                },
+                "images": [
+                  "https://picsum.photos/id/121/800/800",
+                  "https://picsum.photos/id/122/800/800"
+                ]
+              },
+              {
+                "id": "gp002",
+                "name": "EGE TitanPlay 15",
+                "brand": "EGE",
+                "price": 1199.99,
+                "description": "6.5\" Gaming Phone, 12GB RAM, Advanced Cooling",
+                "sizes": ["6.5\""],
+                "colors": ["Black"],
+                "category": "Smartphones",
+                "subcategory": "Gaming Phones",
+                "specifications": {
+                  "CPU": "Snapdragon 8 Gen 1",
+                  "RAM": "12GB",
+                  "Storage": "256GB",
+                  "Display": "6.5\" AMOLED 120Hz"
+                },
+                "images": [
+                  "https://picsum.photos/id/123/800/800",
+                  "https://picsum.photos/id/124/800/800"
+                ]
+              },
+              {
+                "id": "gp003",
+                "name": "EGE NitroMobile 14",
+                "brand": "EGE",
+                "price": 999.99,
+                "description": "6.4\" Budget Gaming Phone, 8GB RAM",
+                "sizes": ["6.4\""],
+                "colors": ["Blue","Gray"],
+                "category": "Smartphones",
+                "subcategory": "Gaming Phones",
+                "specifications": {
+                  "CPU": "Snapdragon 778G",
+                  "RAM": "8GB",
+                  "Storage": "128GB",
+                  "Display": "6.4\" AMOLED 90Hz"
+                },
+                "images": [
+                  "https://picsum.photos/id/125/800/800",
+                  "https://picsum.photos/id/126/800/800"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cameras",
+        "name": "Cameras",
+        "image": "https://picsum.photos/id/183/800/800",
+        "subcategories": [
+          {
+            "id": "dslr-cameras",
+            "name": "DSLR Cameras",
+            "categoryId": "cameras",
+            "products": [
+              {
+                "id": "dslr001",
+                "name": "CamEdge Rebel T7",
+                "brand": "CamEdge",
+                "price": 499.99,
+                "description": "Entry-level DSLR with 24MP APS-C Sensor",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Cameras",
+                "subcategory": "DSLR Cameras",
+                "specifications": {
+                  "Sensor": "24MP APS-C",
+                  "Lens": "18-55mm Kit Lens",
+                  "Stabilization": "Optical",
+                  "Video": "1080p @ 30fps"
+                },
+                "images": [
+                  "https://picsum.photos/id/551/800/800",
+                  "https://picsum.photos/id/552/800/800"
+                ]
+              },
+              {
+                "id": "dslr002",
+                "name": "CamEdge Pro D6",
+                "brand": "CamEdge",
+                "price": 1299.99,
+                "description": "Professional DSLR with weather-sealed body",
+                "sizes": ["One Size"],
+                "colors": ["Black", "Silver"],
+                "category": "Cameras",
+                "subcategory": "DSLR Cameras",
+                "specifications": {
+                  "Sensor": "30MP Full Frame",
+                  "Lens": "24-70mm f/2.8",
+                  "Stabilization": "In-Lens",
+                  "Video": "4K @ 30fps"
+                },
+                "images": [
+                  "https://picsum.photos/id/553/800/800",
+                  "https://picsum.photos/id/554/800/800"
+                ]
+              },
+              {
+                "id": "dslr003",
+                "name": "Photon APS-Classic",
+                "brand": "Photon",
+                "price": 799.99,
+                "description": "Mid-range DSLR with high ISO performance",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Cameras",
+                "subcategory": "DSLR Cameras",
+                "specifications": {
+                  "Sensor": "24MP APS-C",
+                  "Lens": "18-135mm f/3.5-5.6",
+                  "Stabilization": "Digital",
+                  "Video": "1080p @ 60fps"
+                },
+                "images": [
+                  "https://picsum.photos/id/555/800/800",
+                  "https://picsum.photos/id/556/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mirrorless-cameras",
+            "name": "Mirrorless Cameras",
+            "categoryId": "cameras",
+            "products": [
+              {
+                "id": "mir001",
+                "name": "CamEdge Neo M1",
+                "brand": "CamEdge",
+                "price": 999.99,
+                "description": "Compact mirrorless camera with 24MP sensor",
+                "sizes": ["One Size"],
+                "colors": ["Black", "Silver"],
+                "category": "Cameras",
+                "subcategory": "Mirrorless Cameras",
+                "specifications": {
+                  "Sensor": "24MP APS-C",
+                  "Lens": "15-45mm f/3.5-5.6",
+                  "Stabilization": "In-Body",
+                  "Video": "4K @ 30fps"
+                },
+                "images": [
+                  "https://picsum.photos/id/557/800/800",
+                  "https://picsum.photos/id/558/800/800"
+                ]
+              },
+              {
+                "id": "mir002",
+                "name": "Photon Lite M3",
+                "brand": "Photon",
+                "price": 1299.99,
+                "description": "Lightweight full-frame mirrorless with fast autofocus",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Cameras",
+                "subcategory": "Mirrorless Cameras",
+                "specifications": {
+                  "Sensor": "26MP Full Frame",
+                  "Lens": "28-70mm f/3.5-5.6",
+                  "Stabilization": "In-Body 5-Axis",
+                  "Video": "4K @ 60fps"
+                },
+                "images": [
+                  "https://picsum.photos/id/559/800/800",
+                  "https://picsum.photos/id/560/800/800"
+                ]
+              },
+              {
+                "id": "mir003",
+                "name": "CamEdge Alpha S5",
+                "brand": "CamEdge",
+                "price": 1699.99,
+                "description": "Pro mirrorless camera with advanced AI tracking",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Cameras",
+                "subcategory": "Mirrorless Cameras",
+                "specifications": {
+                  "Sensor": "32MP Full Frame",
+                  "Lens": "24-70mm f/2.8",
+                  "Stabilization": "Sensor-Shift",
+                  "Video": "4K @ 60fps"
+                },
+                "images": [
+                  "https://picsum.photos/id/561/800/800",
+                  "https://picsum.photos/id/562/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "action-cameras",
+            "name": "Action Cameras",
+            "categoryId": "cameras",
+            "products": [
+              {
+                "id": "ac001",
+                "name": "Photon Action 4K",
+                "brand": "Photon",
+                "price": 299.99,
+                "description": "Waterproof action camera with 4K/60fps recording",
+                "sizes": ["One Size"],
+                "colors": ["Black", "Yellow"],
+                "category": "Cameras",
+                "subcategory": "Action Cameras",
+                "specifications": {
+                  "Sensor": "12MP CMOS",
+                  "Stabilization": "Electronic",
+                  "Video": "4K @ 60fps",
+                  "Water Resistance": "10m without housing"
+                },
+                "images": [
+                  "https://picsum.photos/id/563/800/800",
+                  "https://picsum.photos/id/564/800/800"
+                ]
+              },
+              {
+                "id": "ac002",
+                "name": "CamEdge GoHero",
+                "brand": "CamEdge",
+                "price": 249.99,
+                "description": "Ultra-wide lens action cam with voice control",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Cameras",
+                "subcategory": "Action Cameras",
+                "specifications": {
+                  "Sensor": "10MP CMOS",
+                  "Stabilization": "Electronic",
+                  "Video": "4K @ 30fps",
+                  "Water Resistance": "Up to 30m with housing"
+                },
+                "images": [
+                  "https://picsum.photos/id/565/800/800",
+                  "https://picsum.photos/id/566/800/800"
+                ]
+              },
+              {
+                "id": "ac003",
+                "name": "Photon FreeRider 8",
+                "brand": "Photon",
+                "price": 349.99,
+                "description": "Rugged action camera with horizon leveling",
+                "sizes": ["One Size"],
+                "colors": ["Black", "Gray"],
+                "category": "Cameras",
+                "subcategory": "Action Cameras",
+                "specifications": {
+                  "Sensor": "12MP CMOS",
+                  "Stabilization": "Advanced EIS",
+                  "Video": "4K @ 60fps",
+                  "Water Resistance": "IPX8"
+                },
+                "images": [
+                  "https://picsum.photos/id/567/800/800",
+                  "https://picsum.photos/id/568/800/800"
+                ]
+              }
+            ]
+          }
+        ]
+      },      
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "image": "https://picsum.photos/id/184/800/800",
+        "subcategories": [
+          {
+            "id": "headphones",
+            "name": "Headphones",
+            "categoryId": "accessories",
+            "products": [
+              {
+                "id": "hp001",
+                "name": "EGE Audio Pro",
+                "brand": "EGE",
+                "price": 199.99,
+                "description": "Wireless Noise Cancelling Headphones with 40-hour Battery",
+                "sizes": ["One Size"],
+                "colors": ["Black","White"],
+                "category": "Accessories",
+                "subcategory": "Headphones",
+                "specifications": {
+                  "Connectivity": "Bluetooth 5.2",
+                  "Battery Life": "40 hours",
+                  "Noise Cancelling": "Active",
+                  "Weight": "250g"
+                },
+                "images": [
+                  "https://picsum.photos/id/301/800/800",
+                  "https://picsum.photos/id/302/800/800"
+                ]
+              },
+              {
+                "id": "hp002",
+                "name": "EGE NoiseMaster X",
+                "brand": "EGE",
+                "price": 249.99,
+                "description": "Over-Ear Noise Cancelling Headphones, Hi-Res Audio",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Accessories",
+                "subcategory": "Headphones",
+                "specifications": {
+                  "Connectivity": "Bluetooth 5.0",
+                  "Battery Life": "30 hours",
+                  "Noise Cancelling": "Active",
+                  "Weight": "280g"
+                },
+                "images": [
+                  "https://picsum.photos/id/303/800/800",
+                  "https://picsum.photos/id/304/800/800"
+                ]
+              },
+              {
+                "id": "hp003",
+                "name": "EGE SonicBass 15",
+                "brand": "EGE",
+                "price": 149.99,
+                "description": "Wireless Headphones with Deep Bass",
+                "sizes": ["One Size"],
+                "colors": ["Black","Red"],
+                "category": "Accessories",
+                "subcategory": "Headphones",
+                "specifications": {
+                  "Connectivity": "Bluetooth 5.1",
+                  "Battery Life": "25 hours",
+                  "Noise Cancelling": "Passive",
+                  "Weight": "220g"
+                },
+                "images": [
+                  "https://picsum.photos/id/305/800/800",
+                  "https://picsum.photos/id/306/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "smartwatches",
+            "name": "Smartwatches",
+            "categoryId": "accessories",
+            "products": [
+              {
+                "id": "sw001",
+                "name": "EGE Watch Ultra",
+                "brand": "EGE",
+                "price": 399.99,
+                "description": "Rugged Smartwatch with GPS, 10ATM Water Resistance",
+                "sizes": ["One Size"],
+                "colors": ["Black"],
+                "category": "Accessories",
+                "subcategory": "Smartwatches",
+                "specifications": {
+                  "Display": "1.5\" AMOLED",
+                  "Battery Life": "14 days",
+                  "Water Resistance": "10ATM",
+                  "Sensors": "Heart Rate, SpO2"
+                },
+                "images": [
+                  "https://picsum.photos/id/311/800/800",
+                  "https://picsum.photos/id/312/800/800"
+                ]
+              },
+              {
+                "id": "sw002",
+                "name": "EGE SmartFit 15",
+                "brand": "EGE",
+                "price": 299.99,
+                "description": "Fitness-Focused Smartwatch, GPS, Heart Rate Monitor",
+                "sizes": ["One Size"],
+                "colors": ["White","Pink"],
+                "category": "Accessories",
+                "subcategory": "Smartwatches",
+                "specifications": {
+                  "Display": "1.3\" LCD",
+                  "Battery Life": "10 days",
+                  "Water Resistance": "5ATM",
+                  "Sensors": "Heart Rate, Sleep Tracking"
+                },
+                "images": [
+                  "https://picsum.photos/id/313/800/800",
+                  "https://picsum.photos/id/314/800/800"
+                ]
+              },
+              {
+                "id": "sw003",
+                "name": "EGE ActiveBand 12",
+                "brand": "EGE",
+                "price": 199.99,
+                "description": "Lightweight Smartwatch, Step Tracking, Notifications",
+                "sizes": ["One Size"],
+                "colors": ["Black","Blue"],
+                "category": "Accessories",
+                "subcategory": "Smartwatches",
+                "specifications": {
+                  "Display": "1.2\" LCD",
+                  "Battery Life": "7 days",
+                  "Water Resistance": "3ATM",
+                  "Sensors": "Heart Rate"
+                },
+                "images": [
+                  "https://picsum.photos/id/315/800/800",
+                  "https://picsum.photos/id/316/800/800"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "wireless-earbuds",
+            "name": "Wireless Earbuds",
+            "categoryId": "accessories",
+            "products": [
+              {
+                "id": "we001",
+                "name": "EGE AirPods X",
+                "brand": "EGE",
+                "price": 159.99,
+                "description": "True Wireless Earbuds with Noise Cancellation",
+                "sizes": ["One Size"],
+                "colors": ["White","Black"],
+                "category": "Accessories",
+                "subcategory": "Wireless Earbuds",
+                "specifications": {
+                  "Connectivity": "Bluetooth 5.2",
+                  "Battery Life": "24 hours with Case",
+                  "Noise Cancelling": "Active",
+                  "Water Resistance": "IPX4"
+                },
+                "images": [
+                  "https://picsum.photos/id/321/800/800",
+                  "https://picsum.photos/id/322/800/800"
+                ]
+              },
+              {
+                "id": "we002",
+                "name": "EGE SoundBeats 12",
+                "brand": "EGE",
+                "price": 99.99,
+                "description": "Budget Wireless Earbuds, Great Sound",
+                "sizes": ["One Size"],
+                "colors": ["Black","Blue"],
+                "category": "Accessories",
+                "subcategory": "Wireless Earbuds",
+                "specifications": {
+                  "Connectivity": "Bluetooth 5.0",
+                  "Battery Life": "20 hours with Case",
+                  "Noise Cancelling": "Passive",
+                  "Water Resistance": "IPX4"
+                },
+                "images": [
+                  "https://picsum.photos/id/323/800/800",
+                  "https://picsum.photos/id/324/800/800"
+                ]
+              },
+              {
+                "id": "we003",
+                "name": "EGE EliteBuds 14",
+                "brand": "EGE",
+                "price": 179.99,
+                "description": "Premium Wireless Earbuds, Low Latency",
+                "sizes": ["One Size"],
+                "colors": ["White"],
+                "category": "Accessories",
+                "subcategory": "Wireless Earbuds",
+                "specifications": {
+                  "Connectivity": "Bluetooth 5.2",
+                  "Battery Life": "28 hours with Case",
+                  "Noise Cancelling": "Active",
+                  "Water Resistance": "IPX5"
+                },
+                "images": [
+                  "https://picsum.photos/id/325/800/800",
+                  "https://picsum.photos/id/326/800/800"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
